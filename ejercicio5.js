@@ -1,8 +1,8 @@
 // Cuanto es el X por ciento de X numero?
-function xForX (numero, porcentaje){
+function xForX (number, percent){
     
-    let operacion = (numero * porcentaje) / 100
+    let operation = (number * percent) / 100
     
-    console.log("Devuelve: " + operacion);
+    console.log("Return: " + operation);
 }
 xForX(43, 897)
