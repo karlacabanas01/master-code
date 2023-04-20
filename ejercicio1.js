@@ -1,6 +1,5 @@
 const number = 0;
 
-
 function tableMultiplication(number){
 
     let result = `Table of ` + number + ` \n`
