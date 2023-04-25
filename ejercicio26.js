@@ -10,12 +10,11 @@
         /* 
             push es para añadir un elemento al array
             sumo el numero anterior y el numero anterior del anterior
-
         */
     } 
 
     return [serie, serie[numero]]
-    console.log(serie); //Para ver que si va funcionando
+    //console.log(serie); //Para ver que si va funcionando
  }
 
  console.log("Serie completa: " + fibonacci(10)[0]);  //Indice 0
