@@ -9,10 +9,9 @@ function searchSentence (sentence, search){
 
     if(clean_text.includes(search)){
         const words = clean_text.split(" "); //Lo divido por espacios
-        const map = {};
-
+        const map = {}; //JSON
+        //Mapeo de letras
         for (let word of words){
-
             if(map[word]){
                 map[word]++;
             }else{
