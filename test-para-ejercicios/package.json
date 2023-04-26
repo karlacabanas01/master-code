@@ -1,0 +1,14 @@
+{
+  "name": "test-para-ejercicios",
+  "version": "1.0.0",
+  "description": "tests con jest para ejercicios de logica",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Karla Cab",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
